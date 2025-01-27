@@ -1,0 +1,22 @@
+{
+    "canisters": {
+        "arbitrage_bot": {
+            "main": "client/src/arbitrage_bot/main.mo",
+            "type": "motoko",
+            "dependencies": []
+        }
+    },
+    "networks": {
+        "calimero": {
+            "providers": ["https://private-subnet.calimero.network"],
+            "type": "persistent"
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": ""
+        }
+    },
+    "version": 1
+} 
