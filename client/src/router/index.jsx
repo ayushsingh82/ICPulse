@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Home from '../components/Home';
+import Landing from '../components/Landing';
+import Dashboard from '../components/Dashboard';
 import Layout from '../components/Layout';
 
 export const router = createBrowserRouter([
@@ -9,7 +10,11 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Home />
+                element: <Landing />
+            },
+            {
+                path: 'dashboard',
+                element: <Dashboard />
             }
         ]
     }
