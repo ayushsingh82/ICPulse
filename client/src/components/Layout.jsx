@@ -16,7 +16,7 @@ const Layout = () => {
                         sx={{ flexGrow: 1, cursor: 'pointer' }}
                         onClick={() => navigate('/')}
                     >
-                        ICP Arbitrage Bot
+                        ICPulse
                     </Typography>
                     {location.pathname !== '/dashboard' && (
                         <Button 

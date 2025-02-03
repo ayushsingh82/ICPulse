@@ -117,7 +117,7 @@ const Landing = () => {
                                     WebkitTextFillColor: 'transparent'
                                 }}
                             >
-                                ICP Arbitrage Bot
+                                ICPulse
                             </Typography>
                         </Box>
 

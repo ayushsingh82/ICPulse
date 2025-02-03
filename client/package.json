@@ -12,6 +12,7 @@
     "prestart": "npm run generate && dfx deploy arbitrage_bot"
   },
   "dependencies": {
+    "@elizaos/plugin-icp": "^0.1.9",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.16.14",
