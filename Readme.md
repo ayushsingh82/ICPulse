@@ -18,6 +18,9 @@ ICPulse is an arbitrage trading bot built on the ICP (Internet Computer Protocol
 
 ## How It Works  
 
+![image](https://github.com/user-attachments/assets/86b96f3d-d201-40ca-8926-97c20f61d618)
+
+
 1. **Eliza OS Plugin 1** scans multiple ICP-based platforms to find price differences.  
 2. **Eliza OS Plugin 2** executes buy/sell orders when an arbitrage opportunity is detected.  
 3. **Callimero** ensures that the final executed price remains private.  
